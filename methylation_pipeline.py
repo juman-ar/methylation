@@ -1,9 +1,6 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 TCGA-BRCA DNA methylation analysis pipeline
 ============================================
-
 Classifies breast samples as Primary Tumor vs. Solid Tissue Normal from
 Illumina 450K DNA-methylation array data, and produces all figures and
 tables needed for the project report.
@@ -92,7 +89,6 @@ RANDOM_STATE = 42
 
 def log(msg):
     print("[%s] %s" % (time.strftime("%H:%M:%S"), msg), flush=True)
-
 
 # ----------------------------------------------------------------------
 # 1. Data loading
